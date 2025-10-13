@@ -1,0 +1,24 @@
+{
+  "name": "ms_notification_service",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Consumers de notificacao com retry simples e DLQ",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "pub:test": "node scripts/publish.js",
+    "publish:requested": "node scripts/publish.js requested",
+    "publish:requested:fail": "node scripts/publish.js requested --fail",
+    "publish:confirmed": "node scripts/publish.js confirmed",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.9",
+    "dotenv": "^17.2.3",
+    "pino": "^10.0.0"
+  }
+}
