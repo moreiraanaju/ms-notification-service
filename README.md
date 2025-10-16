@@ -8,12 +8,6 @@ Opera de forma independente do `ms-payment-service`.
 
 ---
 
-## 🧱 Infraestrutura
-A infraestrutura compartilhada (Postgres + RabbitMQ) está disponível no repositório:
-👉 [ms-infra](https://github.com/moreiraanaju/ms_infra)
-
----
-
 ## 🧱 Arquitetura
 
 RabbitMQ (exchange: payments.x)
